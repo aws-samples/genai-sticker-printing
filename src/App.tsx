@@ -44,7 +44,7 @@ export default function App() {
               />
             </div>
             <div>
-              <button className="generate-button" type="sub+">
+              <button className="generate-button">
                 Generate
               </button>
             </div>
