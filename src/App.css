@@ -1,0 +1,81 @@
+.app-main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-title {
+  color: rgb(0, 0, 0);
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.generator-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 5px;
+}
+
+.prompt-input {
+  color: black;
+  padding: 0.5rem;
+  width: 400px;
+  border-radius: 0.25rem;
+  margin-bottom: 5px;
+}
+
+.generate-button {
+  background-color: #d43bf6;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  max-width: 500px;
+  margin-bottom: 5px;
+}
+
+.generate-button:hover {
+  background-color: #2563eb;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  overflow: hidden;  
+}
+
+.image-wrapper {
+  width: 100%;
+  max-width: 500px;
+}
+
+.generated-image {
+  max-width: 100%;
+  width: 200%;
+  height: auto;
+  transform: scale(1.7);
+  transform-origin: 50% 50%;
+}
+
+.sign-out-button {
+  background-color: #ef4444;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  max-width: 500px;
+}
+
+.sign-out-button:hover {
+  background-color: #dc2626;
+}
